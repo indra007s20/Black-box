@@ -44,7 +44,7 @@ const help = (prefix) => {
 
 ╠════════════════════
 
-║│➸comando : *${prefix}loli*
+║│➸comando : *${prefix}lolizinha*
 ║│➸descricao : imagens aleatórias de loli
 ║│➸modo de uso : apenas envie o comando\n
 
