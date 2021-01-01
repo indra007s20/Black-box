@@ -33,7 +33,7 @@ const help = (prefix) => {
 ╠════════════════════
 ║│➸comando : *${prefix}loli* (off)
 ║│➸descricao : imagens aleatórias de loli
-║│➸modo de uso : apenas envie o comando\
+║│➸modo de uso : apenas envie o comando\n
 ╠════════════════════
 ║│➸comando : *${prefix}nsfwloli*
 ║│➸descricao : imagens aleatórias de nsfw loli
@@ -41,7 +41,7 @@ const help = (prefix) => {
 ╠════════════════════
 ║│➸comando : *${prefix}url2img*
 ║│➸descricao : take web screenshots
-║│➸modo de uso : *${prefix}url2img [tipe] [url]*\
+║│➸modo de uso : *${prefix}url2img [tipe] [url]*\n
 ╠════════════════════
 ║│➸comando : *${prefix}simi*
 ║│➸descricao : sua mensagem será respondida por simi
@@ -63,7 +63,7 @@ const help = (prefix) => {
 ║ > *comandos de grupo* <
 ║│➸comando : *${prefix}linkgroup* (off)
 ║│➸descricao : pegue o link do grupo
-║│➸modo de uso : just send the command\
+║│➸modo de uso : just send the command
 ║│➸nota : can only be used when the bot becomes admin, and the one who sends the ║│➸command is admin!\n
 ╠════════════════════
 ║│➸comando : *${prefix}tagall*
