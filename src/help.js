@@ -94,7 +94,7 @@ const help = (prefix) => {
 
 ╠════════════════════
 
-║│➸comando : *${prefix}tagall*
+║│➸comando : *${prefix}chamada*
 ║│➸descricao : marca todos os membros do grupo, incluindo administradores também
 ║│➸modo de uso : apenas envie o comando
 ║│➸nota : Este comando pode ser usado se você for um administrador do grupo\n
