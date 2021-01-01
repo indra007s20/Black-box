@@ -1,6 +1,5 @@
 const help = (prefix) => {
-
-║	return `> *Sticker Commands* <
+ return `> *Sticker Commands* <
 ║│➸comando : *${prefix}sticker* or *${prefix}stiker*
 ║│➸desc : converter imagem / gif / vídeo em adesivo
 ║│➸usage : responder imagem / gif / vídeo ou enviar imagem / gif / vídeo com legenda\n
@@ -86,17 +85,13 @@ const help = (prefix) => {
 ║│➸modo de uso: *${prefix}kick @tag do membro
 ║│➸nota: o bot precisa ser adm!\n
 ╠════════════════════
-╠════════════════════
 ║│➸DONO DO BOT: TIO PAIN🐊🙌🔱\n
 ╠════════════════════
 ║│➸CONTATO: wa.me/11949545217\n
 ╠════════════════════
-║│➸🔱BASE BOT : BY TIO PAIN\n
+║│➸🔱BASE MENU : BY TIO PAIN\n
 ╠════════════════════
-║│➸ STATUS BOT: BOT ULTRA VIP\n
-╠════════════════════
-║│➸CONTATO PRA QUEM QUISER ADD O BOT EM GRUPO: wa.me/5511949545217\n`
-╠════════════════════
+║│➸ STATUS BOT: BOT ULTRA VIP\n`
 }
 
 exports.help = help
