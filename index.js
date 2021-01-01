@@ -337,7 +337,7 @@ async function starts() {
 					prefix = args[0]
 					reply(`Prefix berhasil di ubah menjadi : ${prefix}`)
 					break
-				case 'lolizinh':
+				case 'lolizinha':
 					loli.getSFWLoli(async (err, res) => {
 						if (err) return reply('❌ *ERRO* ❌')
 						buffer = await getBuffer(res.url)
@@ -557,7 +557,7 @@ async function starts() {
 						reply('1 para ativar, 0 para desativar')
 					}
 					break
-				case 'bem vindo':
+				case 'bemvindo':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 					if (args.length < 1) return reply('TU N E ADM')
