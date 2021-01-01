@@ -1,6 +1,6 @@
 const help = (prefix) => {
 
-║	return `> *Sticker Commands* <
+║	return `> *Sticker Commands* <`
 ║│➸comando : *${prefix}sticker* or *${prefix}stiker*
 ║│➸desc : converter imagem / gif / vídeo em adesivo
 ║│➸usage : responder imagem / gif / vídeo ou enviar imagem / gif / vídeo com legenda\n
@@ -79,12 +79,12 @@ const help = (prefix) => {
 ║│➸comando: *${prefix}add
 ║│➸descricao: adiciona um membro ao grupo
 ║│➸modo de uso: *${prefix}add 55999998888
-║│➸nota:o bot precisa ser adm!
+║│➸nota:o bot precisa ser adm!\n
 ╠════════════════════
 ║│➸comando:*${prefix}kick
 ║│➸descricao:banir membro do grupo
 ║│➸modo de uso: *${prefix}kick @tag do membro
-║│➸nota: o bot precisa ser adm!
+║│➸nota: o bot precisa ser adm!\n
 ╠════════════════════
 
 ╠════════════════════
