@@ -122,17 +122,17 @@ const help = (prefix) => {
 
 ╠════════════════════
 
-║│➸
-║│➸
-║│➸
-║│➸
+║│➸comando:*${prefix}rebaixar
+║│➸descricao: tira o adm de qual quer adm menos do criador do grupo
+║│➸modo de uso:*${prefix}rebaixar @tag do adm
+║│➸nota: o bot precisa ser adm!\n
 
 ╠════════════════════
 
-║│➸
-║│➸
-║│➸
-║│➸
+║│➸comando:*${prefix}promover
+║│➸descricao: promove qualquer membro pra adm
+║│➸modo de uso:*${prefix}promover @tag do membro
+║│➸nota: o bot precisa ser adm!\n
 
 ╠════════════════════
 
