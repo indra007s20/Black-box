@@ -477,41 +477,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					}
 					break
-                                case 'promover':
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
-					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
-					if (mentioned.length > 1) {
-						teks = 'Berhasil Promote\n'
-						for (let _ of mentioned) {
-							teks += `@${_.split('@')[0]}\n`
-						}
-						mentions(from, mentioned, true)
-						client.groupRemove(from, mentioned)
-					} else {
-						mentions(`Promovido com sucesso @${mentioned[0].split('@')[0]} Como admmistrador do grupo!`, mentioned, true)
-						client.groupMakeAdmin(from, mentioned)
-					}
-					break
-				case 'rebaixar':
-					if (!isGroup) return reply(mess.only.group)
-					if (!isGroupAdmins) return reply(mess.only.admin)
-					if (!isBotGroupAdmins) return reply(mess.only.Badmin)
-					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return
-					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
-					if (mentioned.length > 1) {
-						teks = 'Berhasil Demote\n'
-						for (let _ of mentioned) {
-							teks += `@${_.split('@')[0]}\n`
-						}
-						mentions(teks, mentioned, true)
-						client.groupRemove(from, mentioned)
-					} else {
-						mentions(`Rebaixado com sucesso @${mentioned[0].split('@')[0]} Torne-se um membro do grupo!`, mentioned, true)
-						client.groupDemoteAdmin(from, mentioned)
-					}
+                                
 					break
 				case 'add':
 					if (!isGroup) return reply(mess.only.group)
